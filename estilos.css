@@ -1,0 +1,115 @@
+body{
+    
+}
+
+header{
+    display: flex;
+    
+    }
+
+    .logo{
+      padding: 0px; 
+      margin:  0px;
+      width:   260px;
+      height: 100px;
+      
+    }
+
+      .navegacion{
+        
+        width: 200%;
+        text-align: center;
+        color:  #f4bab5;
+      }
+      .navegacion li{
+      display: inline;
+      }
+      .menu-item{
+      list-style: none;
+      text-align: center;
+      font-size: 26px;
+      margin-right: 5px;
+      margin-left: 5px;
+      font-family: cursive;
+      }
+
+      .registro{
+        text-align: center;
+        color: #025157;
+        font-weight: 500;
+      }
+      
+      .registro {
+        width: 95%;
+        text-align: right;
+        font-size: 14px;
+      }
+      
+      .registro > * {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      
+      .registro a {
+        color: #ffeded;
+      }
+      
+      .registro button {
+        color: rgb(252, 165, 165);
+        background-color: #ffeded;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 0;
+        border-radius: 5px;
+      }
+      .buscar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f4bab5;
+        padding: 10px;
+        
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .buscar_texto{
+        border: none;
+        background: none;
+        outline: none;
+        color:white;
+        font-size: 20px;
+        float: left;
+        line-height: 60px;
+        transition: .3s;
+        width: 0px;
+    }
+    .boton{
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+
+    /*---------------RESPONSIVE---------------*/
+
+    @media screen and (min-width:480px){
+        .buscar:hover > .buscar_texto {
+            width: 100px;
+        }
+    }
+
+    @media screen and (min-width:768px){
+        .buscar:hover > .buscar_texto {
+            width: 200px;
+        }
+    }
+
+    @media screen and (min-width:1024px){
+        .buscar:hover > .buscar_texto {
+            width: 300px;
+        }
+    }
