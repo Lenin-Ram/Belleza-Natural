@@ -105,7 +105,28 @@ header{
      height: 45px;
    }
 		
-    /*---------------RESPONSIVE---------------*/
+   /*------------------GRID------------------*/ 
+   
+   .container-grid-card{
+     display: grid;
+     grid-template-columns: 20% 20% 20% 20%;
+     
+   }
+   .grid-card{
+    background-color: #f4bab5;
+    padding: 2rem;
+    margin: 15px;
+   }
+   .grid-card:hover{
+     border: 1px solid yellow;
+   }
+
+   .productos{
+     width: 125px;
+     height: 125px;
+   }
+   
+   /*---------------RESPONSIVE---------------*/
 
     @media screen and (max-width:575px){
       .navegacion, .registro{
@@ -118,12 +139,12 @@ header{
 
     @media screen and (max-width:768px){
         .buscar:hover > .buscar_texto {
-            width: 160px;
+            width: 130px;
         }
     }
 
     @media screen and (min-width:1024px){
         .buscar:hover > .buscar_texto {
-            width: 240px;
+            width: 170px;
         }
     }
