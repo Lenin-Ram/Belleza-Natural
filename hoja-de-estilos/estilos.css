@@ -1,4 +1,6 @@
-
+body{
+  background-color: rgb(247, 247, 247);
+}
 header{
     display: flex;
     }
@@ -98,7 +100,10 @@ header{
    .facebook{
      padding: 5px;
    }
-  
+   .logo-whatsapp{
+     width: 45px;
+     height: 45px;
+   }
 		
     /*---------------RESPONSIVE---------------*/
 
